@@ -5,57 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <style>
+      
+      p {
+         font-size: 20px;
+      }
+      a {
+         color: blue;
+         text-decoration: none;
+      }
+      a:hover {
+          color: blueviolet;
+      }
+    </style>
 </head>
 <body>
     <h1>Módulo 1 - Primeiros Passos com HTML</h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h2 id="indice">Índice</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clientes">O que são <i>Clients</i>?</a></li>
+        <li><a href="#server">O que são <i>Servers</i>?</a></li>
+        <li><a href="#basicoHtml">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia">História dos computadores</h2>
+       <p>Os dispositivos analógicos foram aprimorados, levando ao surgimento dos dispositivos digitais que todos usamos hoje. 
+         As máquinas estão sendo <strong>constantemente aperfeiçoadas</strong> e agora estão divididas em várias gerações.</p>
+      <a href="https://www.atrainformatica.com.br/2023/07/20/historia-e-evolucao-dos-computadores/" target="_blank">Quer saber mais sobre a História dos computadores? Clique aqui!</a>
+      <p><a href="#indice">Voltar ao início</a></p>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clientes">O que são <i>Clients</i>?</h2>
+       <p>Na programação, especialmente em arquiteturas cliente-servidor, um <i>"cliente"</i>
+          se refere a um componente ou sistema que solicita serviços. Em resumo, os clientes desempenham um papel crucial 
+          na interação entre os usuários finais e os serviços fornecidos pelos servidores </p>
+          <a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">Quer saber mais sobre a arquitetura Cliente-Servidor? Clique aqui!</a>
+          <p><a href="#indice">Voltar ao início</a></p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="server">O que são <i>Servers</i>?</h2>
+       <p>Os servidores na arquitetura cliente-servidor são responsáveis por fornecer serviços e recursos aos clientes, processar solicitações, 
+         garantir disponibilidade e segurança, e facilitar a comunicação entre os clientes e os sistemas de back-end. Eles <u>desempenham 
+         um papel crucial</u> na infraestrutura de muitos sistemas distribuídos e aplicativos baseados na web.</p>
+         <a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">Quer saber mais sobre a arquitetura Cliente-Servidor? Clique aqui!</a>
+         <p><a href="#indice">Voltar ao início</a></p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="basicoHtml">O que é HTML?</h2>
+      <p><strong>HTML</strong><i> (<u>Hypertext Markup Language</u>)</i> é uma linguagem de marcação utilizada para criar e estruturar páginas web. Desenvolvida 
+         inicialmente por Tim Berners-Lee em 1991, é uma linguagem fundamental para a criação de conteúdo na web. HTML permite que os desenvolvedores
+          descrevam o conteúdo de uma página web, como texto, imagens, vídeos, links e outros elementos, usando uma sintaxe baseada em tags.</p>
+      <a href="https://www.dio.me/en/curso-html" target="_blank">Quer fazer um Bootcamp de HTML? Clique aqui!</a>
+      <p><a href="#indice">Voltar ao início</a></p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+    <p>Listas <strong>ordenadas</strong> são usadas quando a ordem dos itens <strong>é importante</strong> e precisa ser indicada numericamente ou alfabeticamente, enquanto listas 
+        <strong>não ordenadas</strong> são usadas quando a ordem dos itens <strong>não é relevante</strong> e os itens precisam apenas ser apresentados com marcadores.</p>
+         <a href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm" target="_blank">Quer saber mais sobre as listas no HTML? Clique Aqui!</a>
+        <p><a href="#indice">Voltar ao início</a></p>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+    <h2 id="links"><mark>Links de referências</mark></h2>
+
+        <li><a href="https://www.dio.me/en">http://dio.me</a></li>
+        <li><a href="https://www.atrainformatica.com.br/2023/07/20/historia-e-evolucao-dos-computadores/" target="_blank">https://www.atrainformatica.com.br/2023/07/20/historia-e-evolucao-dos-computadores/</a></li>
+        <li><a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/" target="_blank">https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/</a></li>
+        <li><a href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm" target="_blank">http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm</a></li>
+        <li><a href="https://pt.wikipedia.org/wiki/HTML" target="_blank">https://pt.wikipedia.org/wiki/HTML</a></li>
     </ul>
 
 </body>
